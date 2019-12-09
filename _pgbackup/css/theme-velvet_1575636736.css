@@ -1063,7 +1063,6 @@ nav .logo {
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     max-height: 80px;
-    max-width: 160px;
 }
 
 @media all and (max-width: 768px) {
@@ -1337,13 +1336,10 @@ nav ul li:hover .subnav .subnav {
 }
 
 .nav-1 .logo {
-    margin: 22px auto auto;
+    margin: auto;
     display: block;
     top: 0;
     bottom: 0;
-    position: absolute;
-    left: 0;
-    right: 0;
 }
 
 .nav-1 .menu {
@@ -2506,7 +2502,7 @@ nav.dismiss-active {
 
 .features-2 .row:first-of-type,
 .features-3 .row:first-of-type {
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 
 .features-2 img {
@@ -3596,7 +3592,6 @@ nav.dismiss-active {
 .testimonials-3 img {
     display: inline-block;
     margin-bottom: 20px;
-    max-height: 570px;
 }
 
 .testimonials-3 .testimonial {
@@ -4775,7 +4770,6 @@ footer .container {
 
 .footer-1 img {
     max-height: 70px;
-    max-width: 160px;
 }
 
 .footer-1 .sub {
