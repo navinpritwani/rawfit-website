@@ -2512,6 +2512,7 @@ nav.dismiss-active {
 .features-2 img {
     display: inline-block;
     margin-bottom: 26.66666667px;
+    max-width: 280px;
 }
 
 .features-2 h5,

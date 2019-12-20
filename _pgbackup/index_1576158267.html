@@ -12,6 +12,7 @@
         <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
         <link href="http://fonts.googleapis.com/css?family=Questrial" rel="stylesheet" type="text/css">
         <link href="css/font-questrial.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     </head>
     <body>
         <div class="nav-container">
@@ -30,7 +31,7 @@
 											Why Us? </a>
                                     </li>
                                     <li>
-                                        <a class="inner-link" href="#trainer">
+                                        <a class="inner-link" href="#plans">
 											How it works? </a>
                                     </li>
                                 </ul>
@@ -45,7 +46,7 @@
 											FAQ </a>
                                     </li>
                                     <li>
-                                        <a class="inner-link" href="#faq">
+                                        <a class="inner-link" href="#contact">
 											Contact Us </a>
                                     </li>
                                     <li style="margin-right: 0;">
@@ -61,29 +62,24 @@
         <div class="main-container">
             <a id="home" class="in-page-link"></a>
             <section class="header header-1 fixed-header">
-                <div class="background-image-holder">
-                    <img alt="Background Image" class="background-image" src="img/meghan-holmes-buWcS7G1_28-unsplash.jpg">
-                </div>
-                <div class="container">
-                    <div class="row v-align-children w-100">
-                        <div class="col-md-6" style="/* background-color: rgba(0, 0, 0, 0.45) */
-padding: 20px; margin-left: 40px;">
-                            <h1 class="text-white">For the <span class="theme-color">fun</span><br>
-of fitness</h1>
-                            <h5 class="text-white">At RawFit, we make holistic health easy for you with fun group classes, healthy meals and accessible primary care all on a single app.</h5>
-                        </div>
-                        <div class="col-md-6 text-center">
-                            <img src="img/rawfit-Logo.png" style="max-width: 60%;"/>
-                        </div>
+                <div class="hero">
+                    <div class="item background-image-holder">
+                        <img alt="Background Image" class="background-image" src="img/meghan-holmes-buWcS7G1_28-unsplash.jpg">
+                    </div>
+                    <div class="background-image-holder item">
+                        <img alt="Background Image" class="background-image" src="img/meghan-holmes-buWcS7G1_28-unsplash.jpg">
+                    </div>
+                    <div class="background-image-holder item">
+                        <img alt="Background Image" class="background-image" src="img/meghan-holmes-buWcS7G1_28-unsplash.jpg">
                     </div>
                 </div>
             </section>
             <a id="about" class="in-page-link"></a>
-            <section class="features features-2">
+            <section class="features-2 bg-secondary">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-10 col-sm-12">
-                            <h3 style="font-weight: 600; margin-bottom: 16px;">About Raw Fit</h3>
+                        <div class="col-md-12 col-sm-12">
+                            <h4 style="font-weight: 600; margin-bottom: 16px;" class="text-center">About Raw Fit</h4>
                             <p>We offer a holistic approach to build an athlete. Our wide range of group workouts designed and run
 by well qualified trainers are filled with lot of fun, engagement, sport activities which train your
 fitness in a most effective and fun way. These group classes are designed for all level of fitness
@@ -92,7 +88,7 @@ enthusiast above age group of 16 years.</p>
                     </div>
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
-                            <h4 style="font-weight: 600; margin-bottom: 32px;" class="text-center">Activities</h4>
+                            <h5 style="font-weight: 600; margin-bottom: 32px;">Activities</h5>
                         </div>
                         <div class="col-sm-4 text-center feature">
                             <img alt="Feature Image" src="https://images.unsplash.com/photo-1522844931788-513a2ed46b4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2851&q=80">
@@ -140,7 +136,7 @@ depends on your body form and physiology. For best results, long term plans are 
                 </div>
             </section>
             <a id="trainer" class="in-page-link"></a>
-            <h4 style="font-weight: 600; text-align: center; margin-top: 32px;">Why Us?</h4>
+            <h4 style="font-weight: 600; text-align: center; margin-top: 60px;">Why Us?</h4>
             <section class="features features-10">
                 <div class="container">
                     <div class="row v-align-children">
@@ -228,7 +224,7 @@ depends on your body form and physiology. For best results, long term plans are 
                 <div class="container">
                     <div class="row v-align-children">
                         <div class="col-md-5 text-center feature">
-                            <img alt="Feature Image" src="img/Rewards-03.png">
+                            <img alt="Feature Image" src="img/Asset%203.png">
                         </div>
                         <div class="col-md-6 feature col-md-offset-1">
                             <h4>Reward</h4>
@@ -237,6 +233,7 @@ depends on your body form and physiology. For best results, long term plans are 
                     </div>
                 </div>
             </section>
+            <a id="plans" class="in-page-link"></a>
             <section class="testimonials testimonials-3 bg-secondary">
                 <div class="container">
                     <div class="row">
@@ -247,88 +244,40 @@ depends on your body form and physiology. For best results, long term plans are 
                     <div class="row">
                         <div class="col-sm-4 text-center testimonial">
                             <h4>1. Signup</h4>
-                            <img alt="Avatar" src="img/ipad2.png">
+                            <img alt="Avatar" src="img/Pictures/Group%2086.png">
                             <p class="lead">
 	Signup at our Mobile app and start your fitness journey with RawFit</p>
                         </div>
                         <div class="col-sm-4 text-center testimonial">
                             <h4>2. Buy Subscription</h4>
-                            <img alt="Avatar" src="img/ipad2.png">
+                            <img alt="Avatar" src="img/Pictures/Group%2088.png">
                             <p class="lead">
 	Select your start date for you subscription and complete the process to purchase it</p>
                         </div>
                         <div class="col-sm-4 text-center testimonial">
                             <h4>3. Book Class</h4>
-                            <img alt="Avatar" src="img/Book%20Class.png">
+                            <img alt="Avatar" src="img/Pictures/Group%2084.png">
                             <p class="lead">
 	On a successful activation of your membership, You can simply book a class for the workout at your convenience.</p>
                         </div>
                         <div class="col-sm-4 text-center testimonial">
                             <h4>4. Go to class & Workout</h4>
-                            <img alt="Avatar" src="img/ipad2.png">
+                            <img alt="Avatar" src="img/Pictures/Group%2087.png">
                             <p class="lead">
 	Find the slot, centre that works best for you and enjoy your fitness like never before.
 Your booked class will appear on your home screen. Biometric signing at our centre to go hassle free</p>
                         </div>
                         <div class="col-sm-4 text-center testimonial">
                             <h4>5. Track your performance</h4>
-                            <img alt="Avatar" src="img/ipad2.png">
+                            <img alt="Avatar" src="img/Pictures/Group%2085.png">
                             <p class="lead">
 	Track your performance and achievement in our stat page and repeat the process for fun workouts</p>
                         </div>
                         <div class="col-sm-4 text-center testimonial">
-                            <h4>7. Reward</h4>
-                            <img alt="Avatar" src="img/ipad2.png">
+                            <h4>6. Get Rewards</h4>
+                            <img alt="Avatar" src="img/Pictures/Group%2089.png">
                             <p class="lead">
 	That’s not all keep getting rewarded </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <a id="plans" class="in-page-link"></a>
-            <section class="pricing pricing-2">
-                <div class="background-image-holder">
-                    <img alt="Background Image" class="background-image" src="img/fit7.jpg">
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12 text-center">
-                            <h3 class="text-white">Affordable Fitness - No Excuses.</h3>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <a href="#"> <div class="col-md-4 col-sm-6 col-md-offset-2 pricing-option text-center">
-                                <h6>casual pass</h6>
-                                <div class="price-container">
-                                    <span class="dollar">$</span>
-                                    <span class="price">15</span>
-                                    <span class="terms">/ea</span>
-                                </div>
-                                <h5>Try 3 Sessions Free!</h5>
-                                <ul>
-                                    <li>Attend any daily group session</li>
-                                    <li>No booking required</li>
-                                    <li>Caters to all fitness levels</li>
-                                </ul>
-                            </div> </a>
-                        <a href="#"> <div class="col-md-4 col-sm-6 pricing-option text-center active">
-                                <h6>launchfit club</h6>
-                                <div class="price-container">
-                                    <span class="dollar">$</span>
-                                    <span class="price">89</span>
-                                    <span class="terms">/mo</span>
-                                </div>
-                                <h5>Free Bag + Meal Plans</h5>
-                                <ul>
-                                    <li>Exclusive weekly PT session</li>
-                                    <li>Groups capped at 15 members</li>
-                                    <li>Tailored training programs</li>
-                                </ul>
-                            </div> </a>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-12 text-center">
-                            <p class="text-white">Need additional pricing info? <a href="#">Get in touch</a> for custom and corporate group training pricing.</p>
                         </div>
                     </div>
                 </div>
@@ -373,8 +322,8 @@ Your booked class will appear on your home screen. Biometric signing at our cent
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12 text-center">
-                            <h2 class="text-white">Working up a sweat in Hyde Park, daily.</h2>
-                            <h5 class="text-white">We run several group fitness training programs daily in and around the Sydney CBD.</h5>
+                            <h2 class="text-white">Working up a sweat in Raipur, daily.</h2>
+                            <h5 class="text-white">We run several group fitness training programs daily in and around Raipur City.</h5>
                         </div>
                     </div>
                 </div>
@@ -383,6 +332,7 @@ Your booked class will appear on your home screen. Biometric signing at our cent
                     <h6 class="text-white">Toggle Map</h6>
                 </div>
             </section>
+            <a id="contact" class="in-page-link"></a>
             <section class="cta cta-7">
                 <div class="background-image-holder">
                     <img alt="Background Image" class="background-image" src="img/fit8.jpg">
@@ -391,7 +341,7 @@ Your booked class will appear on your home screen. Biometric signing at our cent
                     <div class="row">
                         <div class="col-sm-12 text-center">
                             <h2 class="text-white">Start shaping the new you.</h2>
-                            <h5 class="text-white">We have a session starting soon - Join now and meet us at Hyde Park!</h5>
+                            <h5 class="text-white">We have a session starting soon - Join now and meet us!</h5>
                         </div>
                     </div>
                     <div class="row">
@@ -449,5 +399,35 @@ Your booked class will appear on your home screen. Biometric signing at our cent
         <script src="js/spectragram.min.js"></script>
         <script src="js/parallax.js"></script>
         <script src="js/scripts.js"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script>
+$(document).ready(function(){
+  $('.hero').slick({
+    centerMode: true,
+  centerPadding: '60px',
+  slidesToShow: 3,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
+  });
+});
+</script>
     </body>
 </html>

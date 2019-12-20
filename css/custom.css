@@ -7,3 +7,17 @@
 .w-100 {
     max-width: 100%;
 }
+
+.features {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.features img {
+    max-height: 250px;
+}
+
+.features .col-md-4 {
+    text-align: center;
+    padding-bottom: 24px;
+}
