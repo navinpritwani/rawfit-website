@@ -1068,7 +1068,7 @@ nav .logo {
 
 @media all and (max-width: 768px) {
     nav {
-        /*overflow: hidden*/
+        overflow: hidden;
     }
 }
 

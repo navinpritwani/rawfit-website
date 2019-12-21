@@ -42,13 +42,3 @@
         display: none;
     }
 }
-
-.sm-show {
-    display: none;
-}
-
-@media only screen and (max-width:767px) {
-    .sm-show {
-        display: inherit;
-    }
-}

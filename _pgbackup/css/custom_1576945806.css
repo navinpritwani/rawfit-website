@@ -32,23 +32,13 @@
     }
 
     .nav-1 .navbar {
-        /*max-height: 160px !important*/
-        /*height: 160px !important*/
+        max-height: 160px !important;
+        height: 160px !important;
     }
 }
 
 @media only screen and (max-width:767px) {
     .sm-hide {
         display: none;
-    }
-}
-
-.sm-show {
-    display: none;
-}
-
-@media only screen and (max-width:767px) {
-    .sm-show {
-        display: inherit;
     }
 }
