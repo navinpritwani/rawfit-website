@@ -6645,7 +6645,6 @@ button.close {
 .carousel-inner>.item>a>img,
 .carousel-inner>.item>img {
     line-height: 1;
-    margin: auto;
 }
 
 .carousel-inner>.active,
