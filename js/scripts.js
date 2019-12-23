@@ -467,11 +467,16 @@ $(window).load(function() {
         
         if($(window).width() >= 524) {
             setTimeout(function(){ 
-                $('.nav01').removeClass('hide');
-                $('.nav02').removeClass('hide');
+                $('.nav01').removeClass('sm-show');
+                $('.nav02').removeClass('sm-show');
                 $('.main-container').css('display','block');
              }, 4000);
         }
+        else{
+            $('.main-container').css('display','block');
+            
+        }
+     
 
         
 
