@@ -25,7 +25,7 @@
 
 /*!---------- GLOBAL STYLES ----------*/
 body {
-    background: #fff;
+    background: #eee;
     -webkit-backface-visibility: hidden;
 }
 
@@ -58,7 +58,6 @@ body.boxed-layout nav.overlay {
     clear: both;
     position: relative;
     background: #fff;
-    display: none;
 }
 
 .slider {
@@ -1339,6 +1338,7 @@ nav ul li:hover .subnav .subnav {
 
 .nav-1 .logo {
     margin: 22px auto auto;
+    display: block;
     top: 0;
     bottom: 0;
     position: absolute;

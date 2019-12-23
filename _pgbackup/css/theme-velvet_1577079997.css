@@ -25,7 +25,7 @@
 
 /*!---------- GLOBAL STYLES ----------*/
 body {
-    background: #fff;
+    background: #eee;
     -webkit-backface-visibility: hidden;
 }
 
@@ -58,7 +58,6 @@ body.boxed-layout nav.overlay {
     clear: both;
     position: relative;
     background: #fff;
-    display: none;
 }
 
 .slider {
@@ -190,6 +189,7 @@ body {
     color: #888888;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    display: none;
 }
 
 h1,

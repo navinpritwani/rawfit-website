@@ -53,13 +53,10 @@
     }
 }
 
-.HYPE_scene {
-    background-color: transparent !important;
+.HYPE_scene{
+ background-color: transparent !important;
 }
 
 #rawfitani_hype_container {
     position: absolute !important;
-    left: 0;
-    right: 0;
-    margin: auto;
 }

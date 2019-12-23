@@ -25,7 +25,7 @@
 
 /*!---------- GLOBAL STYLES ----------*/
 body {
-    background: #fff;
+    background: #eee;
     -webkit-backface-visibility: hidden;
 }
 
@@ -1036,6 +1036,7 @@ nav {
     transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
+    display: none;
 }
 
 .nav-container.dismiss-active {
