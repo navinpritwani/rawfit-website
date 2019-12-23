@@ -464,13 +464,16 @@ $(document).ready(function() {
 }); 
 
 $(window).load(function() { 
+        
+        if($(window).width() >= 524) {
+            setTimeout(function(){ 
+                $('.nav01').removeClass('hide');
+                $('.nav02').removeClass('hide');
+                $('.main-container').css('display','block');
+             }, 4000);
+        }
 
-
-        setTimeout(function(){ 
-            $('.nav01').removeClass('hide');
-            $('.nav02').removeClass('hide');
-            $('.main-container').css('display','block');
-         }, 4000);
+        
 
 	"use strict";
 	
